@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){
+int y;
+y = 'a';
+printf("O numero ASCII do caractere e: %d\n", y);
+return 0;}
