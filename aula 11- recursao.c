@@ -29,3 +29,22 @@ void main(void) {
 	printf("Fatorial de %d = %.0lf\n", n, f);
 	
 }
+
+
+//binario
+
+#include <stdio.h>
+void bin(unsigned n) {
+    printf("%d \n", n);
+	if (n > 1)
+	    
+		bin(n/2);
+	printf("%d", n % 2);
+}
+void main(void)
+{
+	bin(7);
+	printf("\n");
+}
+
+
